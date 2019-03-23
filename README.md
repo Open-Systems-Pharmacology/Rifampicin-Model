@@ -1,8 +1,9 @@
 # Rifampicin-Model
 Whole-body PBPK model of rifampicin as CYP3A4 and P-gp DDI perpetrator drug
 
-![gim](https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png)
-
+<p align="center">
+  <img src="https://github.com/Open-Systems-Pharmacology/Digoxin-Model/blob/master/DDI-Modeling-Network.png">
+</p>
 
 ## Repository files
 Within this repository, we distribute a whole-body PBPK model of rifampicin, that has been carefully developed using a large number of clinical studies and evaluated within our DDI modeling network. This model is a refined version of the rifampicin compound template provided in PK-Sim; the compound template will be updated as soon as possible. 
