@@ -1,5 +1,5 @@
 {
-  "Version": 75,
+  "Version": 76,
   "Individuals": [
     {
       "Name": "European (P-gp modified, CYP3A4 36 h)",
@@ -1243,6 +1243,10 @@
           "Name": "Molecular weight",
           "Value": 822.94,
           "Unit": "g/mol"
+        },
+        {
+          "Name": "Enable supersaturation",
+          "Value": 0.0
         }
       ]
     }
@@ -1731,7 +1735,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -1742,18 +1746,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -1773,7 +1776,7 @@
               "X": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)|Time",
               "Y": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -1784,7 +1787,7 @@
               "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|Time",
               "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -1946,7 +1949,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -1957,7 +1960,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -1977,7 +1980,7 @@
               "X": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)|Time",
               "Y": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2140,7 +2143,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2151,18 +2154,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2182,7 +2184,7 @@
               "X": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)|Time",
               "Y": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2200,7 +2202,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2211,18 +2213,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2242,7 +2243,7 @@
               "X": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)|Time",
               "Y": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Urine - agg. (n=2)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2406,7 +2407,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2417,18 +2418,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2448,7 +2448,7 @@
               "X": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)|Time",
               "Y": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2466,7 +2466,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2477,18 +2477,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2508,7 +2507,7 @@
               "X": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)|Time",
               "Y": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Urine - agg. (n=3)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2670,7 +2669,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2681,7 +2680,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2701,7 +2700,7 @@
               "X": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)|Time",
               "Y": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2865,7 +2864,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2876,18 +2875,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2907,7 +2905,7 @@
               "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|Time",
               "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2925,7 +2923,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -2936,18 +2934,17 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -2967,7 +2964,7 @@
               "X": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)|Time",
               "Y": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Urine - agg. (n=5)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -2978,7 +2975,7 @@
               "X": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)|Time",
               "Y": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3185,7 +3182,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3196,7 +3193,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3216,7 +3213,7 @@
               "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
               "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3227,7 +3224,7 @@
               "X": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|Time",
               "Y": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3247,7 +3244,7 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 24.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3260,18 +3257,17 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 100.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3291,7 +3287,7 @@
               "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)|Time",
               "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Urine - agg. (n=5)|ObservedData|Kidney|Urine|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3311,7 +3307,7 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 24.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3324,18 +3320,17 @@
               "Visible": true,
               "Min": 0.0,
               "Max": 25.0,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3355,7 +3350,7 @@
               "X": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)|Time",
               "Y": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Bile - agg. (n=5)|ObservedData|Liver|Undefined|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3555,7 +3550,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3566,7 +3561,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3586,7 +3581,7 @@
               "X": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
               "Y": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3597,7 +3592,7 @@
               "X": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|Time",
               "Y": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3608,7 +3603,7 @@
               "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|Time",
               "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3619,7 +3614,7 @@
               "X": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|Time",
               "Y": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Magenta",
+                "Color": "#FF00FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3630,7 +3625,7 @@
               "X": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
               "Y": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "255, 128, 0",
+                "Color": "#FF8000",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3641,7 +3636,7 @@
               "X": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
               "Y": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "0, 192, 192",
+                "Color": "#00C0C0",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -3652,8 +3647,8 @@
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "BottomInside",
-            "BackColor": "Transparent",
-            "DiagramBackColor": "White"
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
           },
           "OriginText": "Rifampicin-Model\nRifampicin po 600 mg MD OD (7 days)\n2019-04-16 08:48"
         }
@@ -3696,7 +3691,8 @@
       "Model": "4Comp",
       "ObservedData": [
         "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)",
-        "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)"
+        "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)",
+        "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -3816,9 +3812,9 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -0.580023766,
-              "Max": 22.9673977,
-              "DefaultColor": "White",
+              "Min": -0.5800238,
+              "Max": 22.9674,
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -3829,9 +3825,9 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0214103963,
+              "Min": 0.0214104,
               "Max": 9.406103,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -3851,8 +3847,8 @@
               "X": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|Time",
               "Y": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
-                "LegendIndex": 3,
+                "Color": "#FF0000",
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -3862,8 +3858,19 @@
               "X": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|Time",
               "Y": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
-                "LegendIndex": 2,
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|Time",
+              "Y": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -3909,7 +3916,8 @@
       "Name": "Rifampicin po 450 mg",
       "Model": "4Comp",
       "ObservedData": [
-        "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)"
+        "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)",
+        "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -4029,7 +4037,7 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4040,7 +4048,7 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "DefaultColor": "White",
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -4060,8 +4068,19 @@
               "X": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)|Time",
               "Y": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|Time",
+              "Y": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -4109,7 +4128,8 @@
       "ObservedData": [
         "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)",
         "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)",
-        "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)"
+        "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)",
+        "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -4230,8 +4250,8 @@
               "GridLines": false,
               "Visible": true,
               "Min": -0.8250712,
-              "Max": 24.5925922,
-              "DefaultColor": "White",
+              "Max": 24.59259,
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
               "NumberMode": "Normal"
@@ -4242,9 +4262,9 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0364971161,
-              "Max": 16.1948242,
-              "DefaultColor": "White",
+              "Min": 0.03649712,
+              "Max": 16.19482,
+              "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
@@ -4264,7 +4284,7 @@
               "X": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|Time",
               "Y": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Red",
+                "Color": "#FF0000",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4275,7 +4295,7 @@
               "X": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|Time",
               "Y": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Blue",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -4286,8 +4306,19 @@
               "X": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|Time",
               "Y": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
               "CurveOptions": {
-                "Color": "Green",
+                "Color": "#008000",
                 "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)-Rifampicin-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|Time",
+              "Y": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#FF00FF",
+                "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -4470,7 +4501,7 @@
             0.7058824
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -6631,7 +6662,7 @@
             0.69
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -6796,7 +6827,7 @@
             0.96
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -6880,8 +6911,7 @@
           "Value": "Plasma"
         },
         {
-          "Name": "Route",
-          "Value": ""
+          "Name": "Route"
         },
         {
           "Name": "Dose",
@@ -7065,7 +7095,7 @@
             0.224846348
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -7192,7 +7222,7 @@
             1.81520939
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -7387,8 +7417,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -7514,8 +7543,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -7641,8 +7669,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -7768,8 +7795,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -7895,8 +7921,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8022,8 +8047,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8149,8 +8173,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8276,8 +8299,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8403,8 +8425,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8530,8 +8551,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8657,8 +8677,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8784,8 +8803,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -8911,8 +8929,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -9038,8 +9055,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -9165,8 +9181,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -9292,8 +9307,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -9419,8 +9433,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -9546,8 +9559,7 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source",
-          "Value": ""
+          "Name": "Source"
         },
         {
           "Name": "Grouping",
@@ -12776,7 +12788,7 @@
             1.650435
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -14583,6 +14595,1128 @@
         "Dimension": "Time",
         "Unit": "h"
       }
+    },
+    {
+      "Name": "Acocella 1985 - R alone - Rifampicin - PO - 10 mg/kg - Plasma - agg. (n=4)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 48.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Acocella 1985"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/4037525"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig. 3"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "R alone"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 4.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "10 mg/kg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "300 mg capsules"
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "RelatedColumns": [
+            {
+              "Name": "Var",
+              "QuantityInfo": {
+                "Name": "Var",
+                "Path": "Acocella 1985 - R alone - Rifampicin - PO - 10 mg/kg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticStdDev"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "Date": "0001-01-01T00:00:00",
+                "MolWeight": 822.94
+              },
+              "Values": [
+                0.1090429,
+                1.490872,
+                0.7999806,
+                0.7090731,
+                0.8908868,
+                0.3818541
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Acocella 1985 - R alone - Rifampicin - PO - 10 mg/kg - Plasma - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            0.383441,
+            3.366727,
+            5.659166,
+            5.751615,
+            2.575815,
+            3.072742
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Acocella 1985 - R alone - Rifampicin - PO - 10 mg/kg - Plasma - agg. (n=4)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 100 mg - Rifampicin - PO - 100 mg - Serum - agg. (n=6)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 157.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "100 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 6.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "100 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 100 mg - Rifampicin - PO - 100 mg - Serum - agg. (n=6)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            0.94,
+            0.52,
+            0.08
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 100 mg - Rifampicin - PO - 100 mg - Serum - agg. (n=6)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 150 mg - Rifampicin - PO - 150 mg - Serum - agg. (n=27)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 158.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "150 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 27.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "150 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 150 mg - Rifampicin - PO - 150 mg - Serum - agg. (n=27)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            1.87,
+            1.18,
+            0.39
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 150 mg - Rifampicin - PO - 150 mg - Serum - agg. (n=27)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 250 mg - Rifampicin - PO - 250 mg - Serum - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 159.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "250 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "250 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 250 mg - Rifampicin - PO - 250 mg - Serum - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            3.15,
+            3.0,
+            1.1,
+            0.32
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 250 mg - Rifampicin - PO - 250 mg - Serum - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 160.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "300 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 5.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "300 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            5.68,
+            3.46,
+            1.6,
+            0.41
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 161.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "450 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 13.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "450 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            7.92,
+            6.84,
+            5.39,
+            2.13,
+            0.6,
+            0.13
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0,
+          12.0,
+          16.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 162.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "600 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 12.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "600 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            8.8,
+            7.43,
+            1.2,
+            0.19
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          16.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 750 mg - Rifampicin - PO - 750 mg - Serum - agg. (n=10)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 163.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "750 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 10.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "750 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 750 mg - Rifampicin - PO - 750 mg - Serum - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            20.87,
+            17.56,
+            10.34,
+            4.9,
+            0.42
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 750 mg - Rifampicin - PO - 750 mg - Serum - agg. (n=10)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Furesz 1970 - 900 mg - Rifampicin - PO - 900 mg - Serum - agg. (n=9)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 164.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Furesz 1970"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://www.ncbi.nlm.nih.gov/pubmed/5002304"
+        },
+        {
+          "Name": "Source",
+          "Value": "Table XIX"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "900 mg"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 9.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Rifampicin"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "PO"
+        },
+        {
+          "Name": "Dose",
+          "Value": "900 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "."
+        },
+        {
+          "Name": "Food state",
+          "Value": "."
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Furesz 1970 - 900 mg - Rifampicin - PO - 900 mg - Serum - agg. (n=9)|ObservedData|Peripheral Venous Blood|Plasma|Rifampicin|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 822.94
+          },
+          "Values": [
+            27.7,
+            22.51,
+            15.4400005,
+            8.33,
+            1.64
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Furesz 1970 - 900 mg - Rifampicin - PO - 900 mg - Serum - agg. (n=9)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          2.0,
+          4.0,
+          8.0,
+          12.0,
+          24.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
     }
   ],
   "ObservedDataClassifications": [
@@ -14735,6 +15869,25 @@
       "Name": "Stone 2004",
       "Classifiables": [
         "Stone 2004 - Day 14 of Rifampin alone - Rifampicin - PO - 600 mg - Plasma - agg. (n=26)"
+      ]
+    },
+    {
+      "Name": "Acocella 1985",
+      "Classifiables": [
+        "Acocella 1985 - R alone - Rifampicin - PO - 10 mg/kg - Plasma - agg. (n=4)"
+      ]
+    },
+    {
+      "Name": "Furesz 1970",
+      "Classifiables": [
+        "Furesz 1970 - 100 mg - Rifampicin - PO - 100 mg - Serum - agg. (n=6)",
+        "Furesz 1970 - 150 mg - Rifampicin - PO - 150 mg - Serum - agg. (n=27)",
+        "Furesz 1970 - 250 mg - Rifampicin - PO - 250 mg - Serum - agg. (n=10)",
+        "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)",
+        "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)",
+        "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)",
+        "Furesz 1970 - 750 mg - Rifampicin - PO - 750 mg - Serum - agg. (n=10)",
+        "Furesz 1970 - 900 mg - Rifampicin - PO - 900 mg - Serum - agg. (n=9)"
       ]
     }
   ],
