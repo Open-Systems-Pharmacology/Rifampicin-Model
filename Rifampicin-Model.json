@@ -1753,6 +1753,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2161,6 +2162,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2220,6 +2222,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2425,6 +2428,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2484,6 +2488,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2882,6 +2887,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -2941,6 +2947,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3264,6 +3271,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -3327,6 +3335,7 @@
             },
             {
               "Unit": "",
+              "Dimension": "Dimensionless",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -4501,7 +4510,7 @@
             0.7058824
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6662,7 +6671,7 @@
             0.69
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6827,7 +6836,7 @@
             0.96
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6911,7 +6920,8 @@
           "Value": "Plasma"
         },
         {
-          "Name": "Route"
+          "Name": "Route",
+          "Value": "PO"
         },
         {
           "Name": "Dose",
@@ -7095,7 +7105,7 @@
             0.224846348
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7222,7 +7232,7 @@
             1.81520939
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7417,7 +7427,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -7543,7 +7554,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -7669,7 +7681,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -7795,7 +7808,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -7921,7 +7935,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8047,7 +8062,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8173,7 +8189,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8299,7 +8316,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8425,7 +8443,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8551,7 +8570,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8677,7 +8697,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8803,7 +8824,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -8929,7 +8951,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -9055,7 +9078,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -9181,7 +9205,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -9307,7 +9332,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -9433,7 +9459,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -9559,7 +9586,8 @@
           "Value": "https://www.ncbi.nlm.nih.gov/pubmed/6473487"
         },
         {
-          "Name": "Source"
+          "Name": "Source",
+          "Value": "Table I"
         },
         {
           "Name": "Grouping",
@@ -12788,7 +12816,7 @@
             1.650435
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15201,7 +15229,7 @@
             0.41
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15324,7 +15352,7 @@
             0.13
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -15447,7 +15475,7 @@
             0.19
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
