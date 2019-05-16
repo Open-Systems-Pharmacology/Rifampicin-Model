@@ -1750,17 +1750,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -1795,7 +1784,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Rifampicin iv 600 mg (3 h) MD OD (7 days) - Plasma",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 600 mg (3 h) MD OD (7 days)\n2019-05-13 13:18"
         }
       ],
@@ -1988,7 +1977,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis"
+          "Name": "Rifampicin iv 300 mg (0.5 h) - Plasma"
         }
       ],
       "Interactions": [
@@ -2159,17 +2148,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -2193,7 +2171,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Rifampicin iv 300 mg (3 h) - Plasma",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 300 mg (3 h)\n2019-05-13 13:27"
         },
         {
@@ -2219,17 +2197,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -2253,7 +2220,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis 1",
+          "Name": "Rifampicin iv 300 mg (3 h) - Urine",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 300 mg (3 h)\n2019-05-13 13:27"
         }
       ],
@@ -2425,17 +2392,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -2459,7 +2415,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Rifampicin iv 450 mg (3 h) - Plasma",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 450 mg (3 h)\n2019-05-13 13:25"
         },
         {
@@ -2485,17 +2441,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -2519,7 +2464,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis 1",
+          "Name": "Rifampicin iv 450 mg (3 h) - Urine",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 450 mg (3 h)\n2019-05-13 13:25"
         }
       ],
@@ -2712,7 +2657,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis"
+          "Name": "Rifampicin iv 600 mg (0.5 h) - Plasma"
         }
       ],
       "Interactions": [
@@ -2884,17 +2829,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -2918,7 +2852,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Rifampicin iv 600 mg (3 h) - Plasma",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 600 mg (3 h)\n2019-05-13 13:22"
         },
         {
@@ -2943,17 +2877,6 @@
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
-              "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -2989,7 +2912,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis 1",
+          "Name": "Rifampicin iv 600 mg (3 h) - Urine",
           "OriginText": "Rifampicin-Model2\nRifampicin iv 600 mg (3 h)\n2019-05-13 13:22"
         }
       ],
@@ -3238,7 +3161,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Rifampicin po 450 mg MD OD (7 days) - Plasma",
           "OriginText": "Rifampicin-Model2\nRifampicin po 450 mg MD OD (7 days)\n2019-05-13 13:49"
         },
         {
@@ -3268,17 +3191,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -3302,7 +3214,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis 1",
+          "Name": "Rifampicin po 450 mg MD OD (7 days) - Urine",
           "OriginText": "Rifampicin-Model2\nRifampicin po 450 mg MD OD (7 days)\n2019-05-13 13:49"
         },
         {
@@ -3332,17 +3244,6 @@
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
               "NumberMode": "Normal"
-            },
-            {
-              "Unit": "",
-              "Dimension": "Dimensionless",
-              "Type": "Y2",
-              "GridLines": false,
-              "Visible": true,
-              "DefaultColor": "#FFFFFF",
-              "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
-              "NumberMode": "Normal"
             }
           ],
           "Curves": [
@@ -3366,7 +3267,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis 2",
+          "Name": "Rifampicin po 450 mg MD OD (7 days) - Bile",
           "OriginText": "Rifampicin-Model2\nRifampicin po 450 mg MD OD (7 days)\n2019-05-13 13:50"
         }
       ],
@@ -3652,13 +3553,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
-          "Settings": {
-            "SideMarginsEnabled": true,
-            "LegendPosition": "BottomInside",
-            "BackColor": "#FFFFFF",
-            "DiagramBackColor": "#FFFFFF"
-          },
+          "Name": "Rifampicin po 600 mg MD OD (7 days) - Plasma",
           "OriginText": "Rifampicin-Model\nRifampicin po 600 mg MD OD (7 days)\n2019-04-16 08:48"
         }
       ],
@@ -3885,7 +3780,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis"
+          "Name": "Rifampicin po 300 mg - Plasma"
         }
       ],
       "Interactions": [
@@ -4095,7 +3990,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis"
+          "Name": "Rifampicin po 450 mg - Plasma"
         }
       ],
       "Interactions": [
@@ -4333,7 +4228,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Rifampicin po 600 mg - Plasma",
           "OriginText": "Rifampicin-Model2\nRifampicin po 600 mg\n2019-05-13 13:40"
         }
       ],
@@ -4634,14 +4529,14 @@
             "MolWeight": 822.94
           },
           "Values": [
-            2.575E-05,
-            6.582E-05,
-            8.87259957E-05,
-            9.7737E-05,
-            0.000109967004
+            25.75,
+            65.82,
+            88.726,
+            97.737,
+            109.967
           ],
           "Dimension": "Mass",
-          "Unit": "kg"
+          "Unit": "mg"
         }
       ],
       "BaseGrid": {
@@ -4757,14 +4652,14 @@
             "MolWeight": 822.94
           },
           "Values": [
-            2.044E-05,
-            4.632E-05,
-            6.414E-05,
-            7.4045E-05,
-            7.9163E-05
+            20.44,
+            46.32,
+            64.14,
+            74.045,
+            79.163
           ],
           "Dimension": "Mass",
-          "Unit": "kg"
+          "Unit": "mg"
         }
       ],
       "BaseGrid": {
@@ -4880,14 +4775,14 @@
             "MolWeight": 822.94
           },
           "Values": [
-            6.23E-06,
-            2.107E-05,
-            2.6945E-05,
-            3.1215E-05,
-            3.296E-05
+            6.23,
+            21.07,
+            26.945,
+            31.215,
+            32.96
           ],
           "Dimension": "Mass",
-          "Unit": "kg"
+          "Unit": "mg"
         }
       ],
       "BaseGrid": {
@@ -5042,7 +4937,7 @@
             1.46
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -5201,7 +5096,7 @@
             0.94
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -5360,7 +5255,7 @@
             0.215
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -9803,10 +9698,10 @@
             "MolWeight": 822.94
           },
           "Values": [
-            6.89100052E-05
+            68.91
           ],
           "Dimension": "Mass",
-          "Unit": "kg"
+          "Unit": "mg"
         }
       ],
       "BaseGrid": {
@@ -10568,7 +10463,7 @@
             2.61
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -12931,20 +12826,20 @@
             "MolWeight": 822.94
           },
           "Values": [
-            1.98111275E-06,
-            7.983716E-06,
-            1.4129173E-05,
-            1.91294021E-05,
-            3.329386E-05,
-            4.216005E-05,
-            4.687354E-05,
-            5.17305743E-05,
-            5.429612E-05,
-            5.71480632E-05,
-            5.97E-05
+            1.98111272,
+            7.98371649,
+            14.1291733,
+            19.1294022,
+            33.29386,
+            42.16005,
+            46.8735428,
+            51.7305756,
+            54.29612,
+            57.1480637,
+            59.7
           ],
           "Dimension": "Mass",
-          "Unit": "kg"
+          "Unit": "mg"
         }
       ],
       "BaseGrid": {
@@ -13066,19 +12961,19 @@
             "MolWeight": 822.94
           },
           "Values": [
-            1.11278518E-06,
-            2.67965584E-06,
-            4.67749351E-06,
-            7.105263E-06,
-            9.103101E-06,
-            1.18186417E-05,
-            1.3816134E-05,
-            1.61007083E-05,
-            1.88159047E-05,
-            2.08999991E-05
+            1.11278522,
+            2.67965579,
+            4.67749357,
+            7.105263,
+            9.103101,
+            11.8186417,
+            13.8161345,
+            16.100708,
+            18.8159046,
+            20.9
           ],
           "Dimension": "Mass",
-          "Unit": "kg"
+          "Unit": "mg"
         }
       ],
       "BaseGrid": {
