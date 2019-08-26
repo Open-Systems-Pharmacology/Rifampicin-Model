@@ -1,0 +1,451 @@
+{
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v2.0/OSP_Qualification_Plan_Schema.json",
+    "Projects": [
+        {
+            "Id": "Itraconazole",
+            "Path": "https://raw.githubusercontent.com/sfrechen/Rifampicin-Model/master/Rifampicin-Model.json",
+            "BuildingBlocks": [],
+            "SimulationParameters": []
+        }
+    ],
+    "ObservedDataSets": [],
+    "Plots": {
+        "AxesSettings": {
+            "GOFMergedPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "GOFMergedPlotsResidualsOverTime": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                }
+            ],
+            "ComparisonTimeProfile": [
+                {
+                    "Type": "X",
+                    "Dimension": "Time",
+                    "Unit": "h",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Concentration (mass)",
+                    "Unit": "µg/l",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsPredictedVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "DDIRatioPlotsResidualsVsObserved": [
+                {
+                    "Type": "X",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ],
+            "PKRatioPlots": [
+                {
+                    "Type": "X",
+                    "Dimension": "Age",
+                    "Unit": "year(s)",
+                    "GridLines": false,
+                    "Scaling": "Linear"
+                },
+                {
+                    "Type": "Y",
+                    "Dimension": "Dimensionless",
+                    "Unit": "",
+                    "GridLines": false,
+                    "Scaling": "Log"
+                }
+            ]
+        },
+        "PlotSettings": {
+            "ChartWidth": 500,
+            "ChartHeight": 400,
+            "Fonts": {
+                "AxisSize": 11,
+                "LegendSize": 9,
+                "OriginSize": 9,
+                "FontFamilyName": "Arial",
+                "WatermarkSize": 40
+            }
+        },
+        "AllPlots": [
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin iv 600 mg (3 h) MD OD (7 days)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin iv 300 mg (0.5 h)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin iv 300 mg (3 h)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin iv 450 mg (3 h)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin iv 600 mg (0.5 h)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin iv 600 mg (3 h)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin po 450 mg MD OD (7 days)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin po 600 mg MD OD (7 days)"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin po 300 mg"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin po 450 mg"
+            },
+            {
+                "SectionId": 33,
+                "Project": "Rifampicin",
+                "Simulation": "Rifampicin po 600 mg"
+            }
+        ],
+        "GOFMergedPlots": [
+            {
+                "SectionId": 32,
+                "Title": "Rifampicin concentration in plasma/serum",
+                "PlotType": "predictedVsObserved|residualsOverTime",
+                "Groups": [
+                    {
+                        "Caption": "Rifampicin iv",
+                        "Symbol": "Circle",
+                        "OutputMappings": [
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acocella 1977 - mean 600 mg MD - Rifampicin - IV - 600 mg - Serum - agg. (n=5)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Serum - agg. (n=6)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "sanofi-aventis U.S. LLC. 2013 - 300 mg - Rifampicin - IV - 300 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 300 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Nitti 1977 - 300 mg - Rifampicin - IV - 300 mg - Serum - agg. (n=2)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Nitti 1977 - 450 mg - Rifampicin - IV - 450 mg - Serum - agg. (n=3)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "sanofi-aventis U.S. LLC. 2013 - 600 mg - Rifampicin - IV - 600 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    },
+                    {
+                        "Caption": "Rifampicin po",
+                        "Symbol": "Asterisk",
+                        "OutputMappings": [
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acocella 1972a - day 1 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acocella 1972a - day 7 - Rifampicin - PO - 450 mg - Serum - agg. (n=5)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Eon Labs Manufacturing, Inc. 1997 - 2X300mg Rifadine Tab - Rifampicin - PO - 600 mg - Plasma - agg. (n=36)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Baneyx 2014 - Day 4 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg MD OD (7 days)",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Baneyx 2014 - Day 7 - 600 mg po MD - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 300 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chouchane 1995 - Rimactan - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 300 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Chouchane 1995 - Rifampicin Generic - Rifampicin - PO - 300 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 300 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Furesz 1970 - 300 mg - Rifampicin - PO - 300 mg - Serum - agg. (n=5)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Blume 1989 - 450 mg REFERENZ - Rifampicin - PO - 450 mg - Plasma - agg. (n=8)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 450 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Furesz 1970 - 450 mg - Rifampicin - PO - 450 mg - Serum - agg. (n=13)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Peloquin 1997 - 600 mg - Rifampicin - PO - 600 mg - Plasma - agg. (n=24)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Blume 1989 - 600 mg REFERENZ - Rifampicin - PO - 600 mg - Plasma - agg. (n=12)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Acocella 1972b - normal subjects - Rifampicin - PO - 600 mg - Serum - agg. (n=6)",
+                                "Color": "#FF0000"
+                            },
+                            {
+                                "Project": "Rifampicin",
+                                "Simulation": "Rifampicin po 600 mg",
+                                "Output": "Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "Furesz 1970 - 600 mg - Rifampicin - PO - 600 mg - Serum - agg. (n=12)",
+                                "Color": "#FF0000"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "ComparisonTimeProfilePlots": [],
+        "DDIRatioPlots": [],
+        "PKRatioPlots": []
+    },
+    "Inputs": [
+        {
+            "Project": "Rifampicin",
+            "Name": "Rifampicin",
+            "Type": "Compound",
+            "SectionId": 31
+        }
+    ],
+    "Sections": [
+        {
+            "Id": 1,
+            "Title": "1 Introduction",
+            "Content": "Content/Section1_Introduction.md"
+        },
+        {
+            "Id": 2,
+            "Title": "2 Methods",
+            "Content": "Content/Section2_Methods.md",
+            "Sections": [
+                {
+                    "Id": 21,
+                    "Title": "2.1 Modeling Strategy",
+                    "Content": "Content/Section2.1_Modeling_Strategy.md"
+                },
+                {
+                    "Id": 22,
+                    "Title": "2.2 Data",
+                    "Content": "Content/Section2.2_Data.md"
+                },
+                {
+                    "Id": 23,
+                    "Title": "2.3 Model Parameters and Assumptions",
+                    "Content": "Content/Section2.3_Model_Parameters_and_Assumptions.md"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "Title": "3 Results and Discussion",
+            "Content": "Content/Section3_Results_and_Discussion.md",
+            "Sections": [
+                {
+                    "Id": 31,
+                    "Title": "3.1 Final input parameters",
+                    "Content": "Content/Input_table.md"
+                },
+                {
+                    "Id": 32,
+                    "Title": "3.2 Diagnostics Plots",
+                    "Content": "Content/GOF_diagnostics.md"
+                },
+                {
+                    "Id": 33,
+                    "Title": "3.3: Concentration-Time Profiles",
+                    "Content": "Content/Concentration_time_profiles.md",
+                    "Sections": [
+                        {
+                            "Id": 331,
+                            "Title": "3.3.1 Model Building",
+                            "Content": "Content/Concentration_time_profiles_building.md"
+                        },
+                        {
+                            "Id": 332,
+                            "Title": "3.3.2 Model Verification",
+                            "Content": "Content/Concentration_time_profiles_verification.md"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": 4,
+            "Title": "4 Conclusion",
+            "Content": "Content/Section4_Conclusion.md"
+        },
+        {
+            "Id": 5,
+            "Title": "5 References",
+            "Content": "Content/References.md"
+        }
+    ],
+    "Intro": [
+        {
+            "Path": "Content/titlepage.md"
+        }
+    ]
+}
