@@ -15,7 +15,7 @@ A literature search was performed to collect available information on physical c
 |                                         |                                    | 1650<br />(6)    | [Agrawal 2005](#5 References)     | Solubility                                                   |
 |                                         |                                    | 2540<br />(6.8)  | [Agrawal 2005](#5 References)     | Solubility                                                   |
 |                                         |                                    | 3350<br />(7.4)  | [Agrawal 2005](#5 References)     | Solubility                                                   |
-|                                         |                                    | 2800<br />(7.5)  | [Boman 1974](#5 References)       | Solubility                                                   |
+|                                         |                                    | 2800<br />(7.5)  | [Boman 1974](#5 References)       | Aqueous solubility                                           |
 | logP                                    |                                    | 1.3              | [Baneyx 2014](#5 References)      | Partition coefficient between octanol and water @ pH 7.4     |
 |                                         |                                    | 2.7              | [DrugBank DB01045](#5-References) | Partition coefficient between octanol and water              |
 | fu                                      | %                                  | 11.1             | [Boman 1974](#5 References)       | Fraction unbound in plasma                                   |
