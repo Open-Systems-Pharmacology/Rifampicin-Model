@@ -1,5 +1,7 @@
 # Rifampicin-Model
-Whole-body PBPK model of rifampicin as CYP3A4 and P-gp DDI perpetrator drug
+Whole-body PBPK model of rifampicin.
+
+**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
 
 <p align="center">
   <img src="Rifampicin.png">
