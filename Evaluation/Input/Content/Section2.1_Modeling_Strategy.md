@@ -6,9 +6,9 @@ The model was built combining bottom-up and top-down techniques. An extensive li
 
 A mean PBPK model was developed using a typical European individual. Enterohepatic recycling for transport processes into the bile was enabled in a continuous fashion (continuous flow from the liver to the lumen of duodenum). One study was performed in female patients after cholecystectomy ([Acocella 1972a](#5-References)). The bile of these patients was collected via a T tube. In the simulations of these patients, enterohepatic recycling was switched off and a virtual gallbladder collected the excreted rifampicin over time. Relevant ADME processes reported to influence the PK of rifampicin were implemented into the model and tested. For parameters that could not be (reliably) informed from literature, parameter identification was performed using a representative set of available clinical studies (see below). Model evaluation was based on the ability of the model to describe observed plasma concentration-time profiles and fraction excreted of unchanged drug to urine and bile.
 
-Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#2.2-Data).
+Details about input data (physicochemical, *in vitro* and clinical) can be found in [Section 2.2](#22-Data).
 
-Details about the structural model and its parameters can be found in [Section 2.3](#2.3-Model-Parameters-and-Assumptions).
+Details about the structural model and its parameters can be found in [Section 2.3](#23-Model-Parameters-and-Assumptions).
 
 
 
