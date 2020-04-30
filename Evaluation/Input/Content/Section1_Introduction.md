@@ -6,5 +6,3 @@ It is known that for both proteins, rifampicin shows inductive and inhibitory ef
 
 Integrating and testing processes that were described as vital to the pharmacokinetics of rifampicin itself resulted in a final model that applies transport by OATP1B1, metabolism by arylacetamide deacetylase (AADAC), transport by P-gp and glomerular filtration. Furthermore, auto-induction of OATP1B1, AADAC and P-gp expression has been incorporated.
 
-The presented rifampicin PBPK model as well as the respective evaluation plan and PBPK report are provided open-source  (https://github.com/Open-Systems-Pharmacology/Rifampicin-model).
-
