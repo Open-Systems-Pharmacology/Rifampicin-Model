@@ -98,8 +98,6 @@
 
 **sanofi-aventis U.S. LLC. 2013** Access Data FDA: https://www.accessdata.fda.gov/drugsatfda_docs/label/2013/050420s075,050627s014lbl.pdf
 
-**Schlender 2016** Schlender JF, Meyer M, Thelen K, Krauss M, Willmann S, Eissing T, Jaehde U. Development of a Whole-Body Physiologically Based Pharmacokinetic Approach to Assess the Pharmacokinetics of Drugs in Elderly Individuals. Clin Pharmacokinet. 2016 Dec;55(12):1573-1589. 
-
 **Shou 2008** Shou M, Hayashi M, Pan Y, Xu Y, Morrissey K, Xu L, Skiles GL. Modeling, prediction, and in vitro in vivo correlation of CYP3A4 induction. Drug Metab Dispos. 2008 Nov;36(11):2355-70.
 
 **Smythe 2012** Smythe W, Khandelwal A, Merle C, Rustomjee R, Gninafon M, Bocar Lo M, Sow OB, Olliaro PL, Lienhardt C, Horton J, Smith P, McIlleron H, Simonsson US. A semimechanistic pharmacokinetic-enzyme turnover model for rifampin autoinduction in adult tuberculosis patients. Antimicrob Agents Chemother. 2012 Apr;56(4):2091-8.
