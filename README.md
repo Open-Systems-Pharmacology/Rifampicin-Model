@@ -1,11 +1,23 @@
 # Rifampicin-Model
 Whole-body PBPK model of rifampicin.
 
-**The latest release of this model including a report on model building, model features and model evaluation can be found [here](../../releases/latest).**
-
 <p align="center">
   <img src="Rifampicin.png">
 </p> 
+
+
+
+This repository contains:
+
+- a PK-Sim snapshot (*.json) file of the current PBPK model
+- static content (e.g. text blocks, *.md files) as inputs for an evaluation plan
+- an evaluation plan (evaluation-plan.json) to create an evaluation report using the snapshot and static text blocks to display the performance of the model
+
+**The latest release of the snapshot of the model, the evaluation plan and the static content can be found [here](../../releases/latest).**
+
+**The latest release of the PK-Sim project model file and the respective evaluation report can be found [here](https://github.com/Open-Systems-Pharmacology/OSP-PBPK-Model-Library/releases/latest).**
+
+
 
 This rifampicin model is intended to be used as a perpetrator in CYP3A4-mediated drug-drug interactions. The model features verified CYP3A4 induction, transient competitive CYP3A4 inhibition. Additional features represent P-gp induction and inhibition.
 
