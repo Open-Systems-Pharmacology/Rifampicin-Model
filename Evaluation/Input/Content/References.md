@@ -2,7 +2,7 @@
 
 **Acocella 1972a** Acocella G., Lamarina A., Nicolis F. B., Pagani V., Segre G. Kinetic studies on rifampicin II. Multicompartmental analysis of the serum, urine and bile concentrations in subjects treated for one week Eur J Clin Pharmacol. 1972;5(2):111-115.
 
-**Acocella 1972b** Acocella G, Bonollo L, Garimoldi M, Mainardi M, Tenconi LT, Nicolis FB. Kinetics of rifampicin and isoniazid administered alone and in combination to normal subjects and patients with liver disease. Acocella G, Bonollo L, Garimoldi M, Mainardi M, Tenconi LT, Nicolis FB.
+**Acocella 1972b** Acocella G, Bonollo L, Garimoldi M, Mainardi M, Tenconi LT, Nicolis FB. Kinetics of rifampicin and isoniazid administered alone and in combination to normal subjects and patients with liver disease. Gut. Gut. 1972 Jan;13(1):47-53.
 
 **Acocella 1977** Acocella G, Bonollo L, Mainardi M, Margaroli P, Tenconi LT. Serum and urine concentrations of rifampicin administered by intravenous infusion in man. Arzneimittelforschung. 1977;27(6):1221-6.
 
@@ -68,6 +68,8 @@
 
 **Mills 2004** Mills JB, Rose KA, Sadagopan N, Sahi J, de Morais SM. Induction of drug metabolism enzymes and MDR1 using a novel human hepatocyte cell line. J Pharmacol Exp Ther. 2004 Apr;309(1):303-9.
 
+**Moore 2000** Moore LB, Parks DJ, Jones SA, Bledsoe RK, Consler TG, Stimmel JB, Goodwin B, Liddle C, Blanchard SG, Willson TM, Collins JL, Kliewer SA.J Biol Chem. Orphan Nuclear Receptors Constitutive Androstane Receptor and Pregnane X Receptor Share Xenobiotic and Steroid Ligands. 2000 May 19;275(20):15122-7.
+
 **Nakajima 2011** Nakajima A, Fukami T, Kobayashi Y, Watanabe A, Nakajima M, Yokoi T. Human arylacetamide deacetylase is responsible for deacetylation of rifamycins: rifampicin, rifabutin, and rifapentine. Biochem Pharmacol. 2011 Dec 1;82(11):1747-56.
 
 **Nishimura 2013** Nishimura M, Yaguti H, Yoshitsugu H, Naito S, Satoh T. Tissue distribution of mRNA expression of human cytochrome P450 isoforms assessed by high-sensitivity real-time reverse transcription PCR. Yakugaku Zasshi. 2003 May;123(5):369-75.
@@ -104,7 +106,7 @@
 
 **Staudinger 2010** Staudinger JL, Xu C, Cui YJ, Klaassen CD. Nuclear receptor-mediated regulation of carboxylesterase expression and activity. Expert Opin Drug Metab Toxicol. 2010 Mar;6(3):261-71.
 
-**Stone 2004** Acocella G, Conti R, Luisetti M, Pozzi E, Grassi C. Pharmacokinetic studies on antituberculosis regimens in humans. I. Absorption and metabolism of the compounds used in the initial intensive phase of the short-course regimens: single administration study. Am Rev Respir Dis. 1985 Sep;132(3):510-5.
+**Stone 2004** Stone JA, Migoya EM, Hickey L, Winchell GA, Deutsch PJ, Ghosh K, Freeman A, Bi S, Desai R, Dilzer SC, Lasseter KC, Kraft WK, Greenberg H, Waldman SA. Potential for interactions between caspofungin and nelfinavir or rifampin. Antimicrob Agents Chemother. 2004 Nov;48(11):4306-14.
 
 **Templeton 2011** Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011 Oct;39(10):1921-9.
 

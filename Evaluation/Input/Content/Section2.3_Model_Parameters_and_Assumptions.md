@@ -18,7 +18,7 @@ After testing the available organ-plasma partition coefficient and cell permeabi
 
 Integrating and testing active processes that were considered vital to the PK of rifampicin after literature review resulted in a final model that applies transport by OATP1B1 ([Tirona 2003](#5-References)), metabolism by arylacetamide deacetylase (AADAC) ([Nakajima 2011](#5-References)), transport by P-gp ([Collett 2004](#5-References)) and glomerular filtration. No study clearly demonstrated that rifampicin is substrate of CYP3A4; hence, in this PBPK model rifampicin only acts as a perpetrator on CYP3A4 without being metabolized by it.
 
-The implemented expression profile of AADAC, P-gp and OATP1B1 were based on high-sensitive real-time RT-PCR ([Nishimura 2013](#5-References)) of the PK-Sim® expression database. The relative expression in the mucosa of the gut wall was modified based on an optimized value as reported by Hanke *et al.* ([Hanke 2018](#5-References)). Herein, this value was increased by a factor of 3.57 based on digoxin PK data in combination with PBPK modeling.
+The implemented expression profile of AADAC, P-gp and OATP1B1 were based on high-sensitive real-time RT-PCR ([Nishimura 2003](#5-References)) of the PK-Sim® expression database. The relative expression in the mucosa of the gut wall was modified based on an optimized value as reported by Hanke *et al.* ([Hanke 2018](#5-References)). Herein, this value was increased by a factor of 3.57 based on digoxin PK data in combination with PBPK modeling.
 
 It was assumed that the mRNA concentration is proportional to the respective protein concentration. Thus, the expression of a protein in a specific organ relates to the expression in the organ with the highest expression which is termed reference concentration of the protein ([Meyer 2012](#5-References)). OATP1B1 was configured as influx transporter and P-gp as efflux transporter. Reference concentrations of the implemented active processes (enzymes and transporters) are summarized below:
 
@@ -36,7 +36,7 @@ Multiple dose studies that measured PK profiles of rifampicin at different days 
 
 ##### EC<sub>50</sub>
 
-As all induction processes are mediated by PXR, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References))) was applied for all induction processes. This assumption is supported by the fact that Moore *et al.* found a general EC<sub>50</sub> value for PXR-mediated rifampicin induction of 0.71 µmol/L (resulting in an unbound EC<sub>50</sub> of 0.30 µmol/L after correcting for the fraction unbound reported by [Shou 2008](#5-References)). 
+As all induction processes are mediated by PXR, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References))) was applied for all induction processes. This assumption is supported by the fact that Moore *et al.* [Moore 2000](#5-References) found a general EC<sub>50</sub> value for PXR-mediated rifampicin induction of 0.71 µmol/L (resulting in an unbound EC<sub>50</sub> of 0.30 µmol/L after correcting for the fraction unbound reported by [Shou 2008](#5-References)). 
 
 ##### E<sub>max</sub>
 
@@ -57,7 +57,7 @@ Induction of CYP3A4 was incorporated using the weighted mean **EC<sub>50</sub>**
 
 Competitive inhibition of CYP3A4 by rifampicin was included using a dissociation (inhibition) constant (**K<sub>i</sub>**) of 18.5 µmol/L determined in human liver microsomes via inhibition of midazolam 1-hydroxylation ([Kajosaari 2005](#5-References)). No correction of this *in vitro* value was applied to account for potential binding in the assay, as only 0.1 mg/mL human liver microsomal protein was used and a negligible unbound fraction of 0.90 – 0.98 was predicted ([Austin 2002](#5-References)).
 
-Time to reach newly induced CYP3A4 levels and time for de-induction depends on the half-lives of the perpetrator drug but also of the endogenous natural turnover of the induced protein. CYP3A4 turnover featured zero-order synthesis rate and first-order degradation rate. A distinct degradation rate constant (k<sub>deg</sub>) was considered for the intestinal mucosa which rather reflects enterocytic turnover than protein turnover, while in all other CYP3A4 expressing organs CYP3A4 turnover was assumed to follow that of the liver. **CYP3A4 half-life** (= ln(2)/k<sub>deg</sub>) of 23 and 36 h in intestine and liver were incorporated ([Obach 2007](#5-References), [Greenblatt 2003](#5-References), [PK-Sim Ontogeny Database Version 7.3](#5-References)).
+Time to reach newly induced CYP3A4 levels and time for de-induction depends on the half-lives of the perpetrator drug but also of the endogenous natural turnover of the induced protein. CYP3A4 turnover featured zero-order synthesis rate and first-order degradation rate. A distinct degradation rate constant (k<sub>deg</sub>) was considered for the intestinal mucosa which rather reflects enterocytic turnover than protein turnover, while in all other CYP3A4 expressing organs CYP3A4 turnover was assumed to follow that of the liver. **CYP3A4 half-life** (= ln(2)/k<sub>deg</sub>) of 23 and 36 h in intestine and liver, respectively, were incorporated ([Obach 2007](#5-References), [Greenblatt 2003](#5-References), [PK-Sim Ontogeny Database Version 7.3](#5-References)).
 
 #### P-gp induction and inhibition
 P-gp induction is described above.
@@ -78,7 +78,7 @@ An *in vitro* determined K<sub>i</sub> value for rifampicin ([Annaert 2010](#5-R
 
 #### CYP2C8 induction and inhibition
 
-For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References)) was applied (see above).
+For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References))) was applied (see above).
 
 An E<sub>max</sub> value reported by Buckley *et al.* ([Buckley 2014](#5-References)) served as model input (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)).
 
@@ -88,7 +88,7 @@ An *in vitro* determined K<sub>i</sub> value for rifampicin ([Kajosaari 2005](#5
 
 #### CYP1A2 induction
 
-For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References)) was applied (see above).
+For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References))) was applied (see above).
 
 An E<sub>max</sub> value reported by Chen *et al.* ([Chen 2010](#5-References)) served as model input (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)).
 
@@ -96,24 +96,24 @@ CYP1A2 half-life of 39 h in the liver ([Obach 2007](#5-References), [PK-Sim Onto
 
 #### CYP2E1 induction
 
-For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References)) was applied (see above).
+For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-References), [Shou 2008](#5-References), [Templeton 2011](#5-References))) was applied (see above).
 
 An E<sub>max</sub> value reported by Rae *et al.* ([Rae 2001](#5-References)) served as model input (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)).
 
 CYP2E1 half-life of 50 h in the liver ([Emery 1999](#5-References), [PK-Sim Ontogeny Database Version 7.3](#5-References)) and of 23 h in the intestine (assuming that the turnover here rather reflects enterocytic turnover than protein turnover) ([Greenblatt 2003](#5-References), [PK-Sim Ontogeny Database Version 7.3](#5-References)) were incorporated.
 
-#### Summary DDI Parameter
+#### Summary DDI Parameters
 
-| Protein | K<sub>i</sub><br />[µmol/L] | E<sub>max</sub><br />                                | EC<sub>50</sub><br />[µmol/L] | Half-life<br />liver [h] | Half-life<br />intestine [h] |
-| ------- | --------------------------- | ---------------------------------------------------- | ----------------------------- | ------------------------ | ---------------------------- |
-| CYP1A2  | -                           | 0.65                                                 | 0.34                          | 39                       | 23 (assumed)                 |
-| CYP2C8  | 30.2                        | 3.2                                                  | 0.34                          | 23                       | 23 (assumed)                 |
-| CYP2E1  | -                           | 0.8                                                  | 0.34                          | 50                       | 23 (assumed)                 |
-| CYP3A4  | 18.5                        | 9                                                    | 0.34                          | 36                       | 23                           |
-| AADAC   | -                           | [optimized](#235-Automated-Parameter-Identification) | 0.34                          | 36 (assumed)             | 23 (assumed)                 |
-| P-gp    | 169                         | [optimized](#235-Automated-Parameter-Identification) | 0.34                          | 36 (assumed)             | 23 (assumed)                 |
-| OATP1B1 | 0.477                       | [optimized](#235-Automated-Parameter-Identification) | 0.34                          | 36 (assumed)             | 23 (assumed)                 |
-| OATP1B3 | 0.9                         | assumed to be equal to OATP1B1                       | 0.34                          | 36 (assumed)             | 23 (assumed)                 |
+| Protein | K<sub>i</sub><br />[µmol/L] | E<sub>max</sub><br />                                | EC<sub>50,u</sub><br />[µmol/L] | Half-life<br />liver [h] | Half-life<br />intestine [h] |
+| ------- | --------------------------- | ---------------------------------------------------- | ------------------------------- | ------------------------ | ---------------------------- |
+| CYP1A2  | -                           | 0.65                                                 | 0.34                            | 39                       | 23 (assumed)                 |
+| CYP2C8  | 30.2                        | 3.2                                                  | 0.34                            | 23                       | 23 (assumed)                 |
+| CYP2E1  | -                           | 0.8                                                  | 0.34                            | 50                       | 23 (assumed)                 |
+| CYP3A4  | 18.5                        | 9                                                    | 0.34                            | 36                       | 23                           |
+| AADAC   | -                           | [optimized](#235-Automated-Parameter-Identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
+| P-gp    | 169                         | [optimized](#235-Automated-Parameter-Identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
+| OATP1B1 | 0.477                       | [optimized](#235-Automated-Parameter-Identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
+| OATP1B3 | 0.9                         | assumed to be equal to OATP1B1                       | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
 
 
 
