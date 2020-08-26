@@ -4,7 +4,7 @@ The herein presented quantification of induction processes of OATP1B1 and AADAC 
 
 Endogenous protein half-lives of OATP1B1, AADAC, and P-gp are not known. Thus, values reported for CYP3A4 were assumed in this PBPK model. These values were needed to implement induction of the three proteins. However, sensitivity of these parameters on simulated rifampicin plasma concentration is very low.
 
-The model features in particular induction of CYP3A4 based on aggregated *in vitro* CYP3A4 activity data in primary human hepatocytes ([Templeton 2011](#5-Reference)). The model also accounts for competitive inhibition of CYP3A4.
+The model features in particular induction of CYP3A4 based on aggregated *in vitro* CYP3A4 activity data in primary human hepatocytes ([Templeton 2011](#5-References)). The model also accounts for competitive inhibition of CYP3A4.
 
 
 
