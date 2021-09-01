@@ -129,11 +129,10 @@ This is the result of the final parameter identification:
 | `Solubility at reference pH`                                | 2800 FIXED (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)) | mg/L      |
 | `kcat` AADAC (with a reference concentration of 1 µmol/L)   | 9.865                                                        | 1/min     |
 | `kcat` P-gp (with a reference concentration of 1.41 µmol/L) | 0.6088                                                       | 1/min     |
-| `kcat` OATP1B1 (with a reference concentration of 1 µmol/L) | 7.796                                                        | 1/min     |
+| `kcat` OATP1B1 (with a reference concentration of 1 µmol/L) | 7.796<sup>*</sup>                                            | 1/min     |
 | `Emax` AADAC                                                | 0.985                                                        |           |
 | `Emax` P-gp                                                 | 2.5 FIXED (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)) |           |
 | `Emax` OATP1B1                                              | 0.383                                                        |           |
 
-
-
+<sup>*</sup> The value was set to 5.210 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10)).
 
