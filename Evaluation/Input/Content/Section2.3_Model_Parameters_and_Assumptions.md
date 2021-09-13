@@ -134,5 +134,5 @@ This is the result of the final parameter identification:
 | `Emax` P-gp                                                 | 2.5 FIXED (see [Section 2.2.1](#221-In-vitro-and-physicochemical-data)) |           |
 | `Emax` OATP1B1                                              | 0.383                                                        |           |
 
-<sup>*</sup> The value was set to 5.210 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10.0)).
+<sup>*</sup> The value in the model was updated to 5.210 with the release of PK-Sim 10 to account for the updated calculation method of interstitial concentrations (please refer to the respective [release notes of version 10](https://github.com/Open-Systems-Pharmacology/Suite/releases/tag/v10.0)).
 

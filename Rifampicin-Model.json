@@ -2775,15 +2775,15 @@
               "Unit": "µmol/l",
               "ValueOrigin": {
                 "Source": "Publication",
-                "Description": "Dose-Response-Calibration"
+                "Description": "Templeton 2011 (weighted mean for FHH)"
               }
             },
             {
               "Name": "Emax",
               "Value": 9.0,
               "ValueOrigin": {
-                "Source": "ParameterIdentification",
-                "Description": "Dose-Response-Calibration"
+                "Source": "Publication",
+                "Description": "Templeton 2011 (weighted mean for FHH)"
               }
             }
           ]
