@@ -59,23 +59,6 @@ Competitive inhibition of CYP3A4 by rifampicin was included using a dissociation
 
 Time to reach newly induced CYP3A4 levels and time for de-induction depends on the half-lives of the perpetrator drug but also of the endogenous natural turnover of the induced protein. CYP3A4 turnover featured zero-order synthesis rate and first-order degradation rate. A distinct degradation rate constant (k<sub>deg</sub>) was considered for the intestinal mucosa which rather reflects enterocytic turnover than protein turnover, while in all other CYP3A4 expressing organs CYP3A4 turnover was assumed to follow that of the liver. **CYP3A4 half-life** (= ln(2)/k<sub>deg</sub>) of 23 and 36 h in intestine and liver, respectively, were incorporated ([Obach 2007](#5-references), [Greenblatt 2003](#5-references), [PK-Sim Ontogeny Database Version 7.3](#5-references)).
 
-#### P-gp induction and inhibition
-P-gp induction is described above.
-
-An *in vitro* determined K<sub>i</sub> value for rifampicin ([Reitman 2011](#5-references)) served directly as model input (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)).
-
-#### OATP1B1 induction and inhibition
-
-OATP1B1 induction is described above. 
-
-An *in vitro* determined K<sub>i</sub> value for rifampicin ([Hirano 2006](#5-references)) served directly as model input (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)).
-
-#### OATP1B3 induction and inhibition
-
-The same parameters as for OATP1B1 induction were assumed.
-
-An *in vitro* determined K<sub>i</sub> value for rifampicin ([Annaert 2010](#5-references)) served directly as model input (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)).
-
 #### CYP2C8 induction and inhibition
 
 For PXR-mediated induction, the same unbound EC<sub>50</sub> of 0.34 µmol/L (originally measured in primary human hepatocytes for CYP3A4 induction after correcting for the fraction unbound ([Baneyx 2014](#5-references), [Shou 2008](#5-references), [Templeton 2011](#5-references))) was applied (see above).
@@ -85,6 +68,10 @@ An E<sub>max</sub> value reported by Buckley *et al.* ([Buckley 2014](#5-referen
 CYP2C8 half-life of 23 h in the liver ([Renwick 2000](#5-references), [PK-Sim Ontogeny Database Version 7.3](#5-references)) and of 23 h in the intestine (assuming that the turnover here rather reflects enterocytic turnover than protein turnover) ([Greenblatt 2003](#5-references), [PK-Sim Ontogeny Database Version 7.3](#5-references)) were incorporated.
 
 An *in vitro* determined K<sub>i</sub> value for rifampicin ([Kajosaari 2005](#5-references)) served directly as model input.
+
+#### CYP2C9 inhibition
+
+Competitive inhibition of CYP2C9 by rifampicin was included using a dissociation (inhibition) constant (**K<sub>i</sub>**) of 150 µmol/L ([Yoshida 2012](#5-references), [Hanke 2021](#5-references)).
 
 #### CYP1A2 induction
 
@@ -102,18 +89,48 @@ An E<sub>max</sub> value reported by Rae *et al.* ([Rae 2001](#5-references)) se
 
 CYP2E1 half-life of 50 h in the liver ([Emery 1999](#5-references), [PK-Sim Ontogeny Database Version 7.3](#5-references)) and of 23 h in the intestine (assuming that the turnover here rather reflects enterocytic turnover than protein turnover) ([Greenblatt 2003](#5-references), [PK-Sim Ontogeny Database Version 7.3](#5-references)) were incorporated.
 
+#### P-gp induction and inhibition
+P-gp induction is described above.
+
+An *in vitro* determined K<sub>i</sub> value for rifampicin ([Reitman 2011](#5-references)) was updated by [Hanke 2021](#5-references) and served as model input (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)).
+
+#### BCRP inhibition
+
+Competitive inhibition of CYP2C9 by rifampicin was included using a dissociation (inhibition) constant (**K<sub>i</sub>**) of 14 µmol/L ([Prueksaritanont 2014](#5-references), [Hanke 2021](#5-references)).
+
+#### OATP1B1 induction and inhibition
+
+OATP1B1 induction is described above. 
+
+An *in vitro* determined K<sub>i</sub> value for rifampicin ([Hirano 2006](#5-references)) was updated by [Hanke 2021](#5-references) and served as model input (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)).
+
+#### OATP1B3 induction and inhibition
+
+The same parameters as for OATP1B1 induction were assumed.
+
+An *in vitro* determined K<sub>i</sub> value for rifampicin ([Annaert 2010](#5-references)) was updated by [Hanke 2021](#5-references) and served as model input (see [Section 2.2.1](#221-in-vitro-and-physicochemical-data)).
+
+#### OATP2B1 inhibition
+
+Competitive inhibition of CYP2C9 by rifampicin was included using a dissociation (inhibition) constant (**K<sub>i</sub>**) of 78.2 µmol/L ([Zhang 2019](#5-references), [Hanke 2021](#5-references)).
+
+
+
 #### Summary DDI Parameters
 
 | Protein | K<sub>i</sub><br />[µmol/L] | E<sub>max</sub><br />                                | EC<sub>50,u</sub><br />[µmol/L] | Half-life<br />liver [h] | Half-life<br />intestine [h] |
 | ------- | --------------------------- | ---------------------------------------------------- | ------------------------------- | ------------------------ | ---------------------------- |
 | CYP1A2  | -                           | 0.65                                                 | 0.34                            | 39                       | 23 (assumed)                 |
 | CYP2C8  | 30.2                        | 3.2                                                  | 0.34                            | 23                       | 23 (assumed)                 |
+| CYP2C9  | 150                         | -                                                    | -                               | -                        | -                            |
 | CYP2E1  | -                           | 0.8                                                  | 0.34                            | 50                       | 23 (assumed)                 |
 | CYP3A4  | 18.5                        | 9                                                    | 0.34                            | 36                       | 23                           |
 | AADAC   | -                           | [optimized](#235-automated-parameter-identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
-| P-gp    | 169                         | [optimized](#235-automated-parameter-identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
+| P-gp    | 9.1                         | [optimized](#235-automated-parameter-identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
+| BCRP    | 14                          | -                                                    | -                               | -                        | -                            |
 | OATP1B1 | 0.477                       | [optimized](#235-automated-parameter-identification) | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
 | OATP1B3 | 0.9                         | assumed to be equal to OATP1B1                       | 0.34                            | 36 (assumed)             | 23 (assumed)                 |
+| OATP2B1 | 78.2                        | -                                                    | -                               | -                        | -                            |
 
 
 
