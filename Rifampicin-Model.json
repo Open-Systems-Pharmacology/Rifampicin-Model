@@ -5086,7 +5086,7 @@
         },
         {
           "Scaling": "Log",
-          "Path": "Rifampicin iv 600 mg (3 h)|Organism|PeripheralVenousBlood|Rifampicin|Plasma (Peripheral Venous Blood)",
+          "Path": "Rifampicin iv 600 mg (3 h)|Organism|Kidney|Urine|Rifampicin",
           "ObservedData": "Nitti 1977 - 600 mg - Rifampicin - IV - 600 mg - Urine - agg. (n=6)"
         }
       ],
