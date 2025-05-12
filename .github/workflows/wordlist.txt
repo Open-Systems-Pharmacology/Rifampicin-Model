@@ -7,3 +7,5 @@ lbl
 LLC
 rsc
 unserer
+aventis
+sanofi
