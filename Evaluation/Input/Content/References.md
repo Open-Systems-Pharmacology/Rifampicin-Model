@@ -80,7 +80,7 @@
 
 **OSP Database** [https://github.com/Open-Systems-Pharmacology/Database-for-observed-data](https://github.com/Open-Systems-Pharmacology/Database-for-observed-data)
 
-**Panchagnula 2007** Panchagnula R., Gulati I., Varma M., Raj Y.A. Dissolution methodology for evaluation of rifampicin-containing fixed-dose combinations using biopharmaceutic classification sytem based approach. Clin. Res. Regul. Aff. 24, 61–76 (2007)
+**Panchagnula 2007** Panchagnula R., Gulati I., Varma M., Raj Y.A. Dissolution methodology for evaluation of rifampicin-containing fixed-dose combinations using biopharmaceutic classification system based approach. Clin. Res. Regul. Aff. 24, 61–76 (2007)
 
 **Peloquin 1997** Peloquin CA, Jaresko GS, Yong CL, Keung AC, Bulpitt AE, Jelliffe RW. Population pharmacokinetic modeling of isoniazid, rifampin, and pyrazinamide. Antimicrob Agents Chemother. 1997 Dec;41(12):2670-9.
 

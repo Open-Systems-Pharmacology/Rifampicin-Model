@@ -52,10 +52,10 @@ The following dosing scenarios were simulated and compared to respective data:
 
 | Route | Dose<br />[mg] | Dosing                    | PK Data                               | Used for [Optimization](#235-automated-parameter-identification) | Reference                                          |
 | ----- | -------------- | ------------------------- | ------------------------------------- | ------------------------------------------------------------ | -------------------------------------------------- |
-| iv    | 300            | SD, 30 min infusion       | Plasma                                | x                                                            | [sanofi-aventis U.S. LLC. 2013](#5-references)     |
+| iv    | 300            | SD, 30 min infusion       | Plasma                                | x                                                            | [Sanofi-Aventis U.S. LLC. 2013](#5-references)     |
 |       |                | SD, 3 h infusion          | Plasma, excretion into urine          | x                                                            | [Nitti 1977](#5-references)                        |
 |       | 450            | SD, 3 h infusion          | Plasma, excretion into urine          | x                                                            | [Nitti 1977](#5-references)                        |
-|       | 600            | SD, 30 min infusion       | Plasma                                | x                                                            | [sanofi-aventis U.S. LLC. 2013](#5-references)     |
+|       | 600            | SD, 30 min infusion       | Plasma                                | x                                                            | [Sanofi-Aventis U.S. LLC. 2013](#5-references)     |
 |       |                | SD, 3 h infusion          | Plasma, excretion into urine          | x                                                            | [Nitti 1977](#5-references)                        |
 |       |                | SD, 3 h infusion          | Plasma, excretion into urine          | x                                                            | [Acocella 1977](#5-references)                     |
 |       |                | OD (7 days), 3 h infusion | Plasma                                | x                                                            | [Acocella 1977](#5-references)                     |
