@@ -64,6 +64,8 @@
 
 **Loos 1985** Loos U, Musch E, Jensen JC, Mikus G, Schwabe HK, Eichelbaum M. Pharmacokinetics of oral and intravenous rifampicin during chronic administration. Klin Wochenschr. 1985 Dec 2;63(23):1205-11.
 
+**Maggi 1966** Maggi N, Pasqualucci CR, Ballotta R, Sensi P. Rifampicin: a new orally active rifamycin. Chemotherapy. 1966;11(5):285-92. doi: 10.1159/000220462.
+
 **Meyer 2012** Meyer M, Schneckener S, Ludewig B, Kuepfer L, Lippert J. Using expression data for quantification of active processes in physiologically based pharmacokinetic modeling. Drug Metab Dispos. 2012 May;40(5):892-901.
 
 **Mills 2004** Mills JB, Rose KA, Sadagopan N, Sahi J, de Morais SM. Induction of drug metabolism enzymes and MDR1 using a novel human hepatocyte cell line. J Pharmacol Exp Ther. 2004 Apr;309(1):303-9.
@@ -109,8 +111,6 @@
 **Stone 2004** Stone JA, Migoya EM, Hickey L, Winchell GA, Deutsch PJ, Ghosh K, Freeman A, Bi S, Desai R, Dilzer SC, Lasseter KC, Kraft WK, Greenberg H, Waldman SA. Potential for interactions between caspofungin and nelfinavir or rifampin. Antimicrob Agents Chemother. 2004 Nov;48(11):4306-14.
 
 **Templeton 2011** Templeton IE, Houston JB, Galetin A. Predictive utility of in vitro rifampin induction data generated in fresh and cryopreserved human hepatocytes, Fa2N-4, and HepaRG cells. Drug Metab Dispos. 2011 Oct;39(10):1921-9.
-
-**The Merck Index** The Merck Index Online: Rifampin (https://www.rsc.org/Merck-Index/monograph/m9611/rifampin) 
 
 **Tirona 2003** Tirona RG, Leake BF, Wolkoff AW, Kim RB. Human organic anion transporting polypeptide-C (SLC21A6) is a major determinant of rifampin-mediated pregnane X receptor activation. J Pharmacol Exp Ther. 2003 Jan;304(1):223-8.
 

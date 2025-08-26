@@ -7,8 +7,8 @@ A literature search was performed to collect available information on physicoche
 | **Parameter**                           | **Unit**                           | **Value**        | Source                            | **Description**                                              |
 | :-------------------------------------- | ---------------------------------- | ---------------- | --------------------------------- | ------------------------------------------------------------ |
 | MW                                      | g/mol                              | 822.940          | [DrugBank DB01045](#5-references) | Molecular weight                                             |
-| pK<sub>a,base</sub>                     |                                    | 7.9              | [The Merck Index](#5-references)  | Basic dissociation constant                                  |
-| pK<sub>a,acid</sub>                     |                                    | 1.7              | [The Merck Index](#5-references)  | Acid dissociation constant                                   |
+| pK<sub>a,base</sub>                     |                                    | 7.9              | [Maggi 1966](#5-references)       | Basic dissociation constant                                  |
+| pK<sub>a,acid</sub>                     |                                    | 1.7              | [Maggi 1966](#5-references)       | Acid dissociation constant                                   |
 | Solubility (pH)                         | mg/L                               | 1100<br />(6.5)  | [Baneyx 2014](#5-references)      | Solubility                                                   |
 |                                         |                                    | 1400<br />(6.8)  | [Panchagnula 2006](#5-references) | Solubility                                                   |
 |                                         |                                    | 990<br />(4)     | [Agrawal 2005](#5-references)     | Solubility                                                   |
