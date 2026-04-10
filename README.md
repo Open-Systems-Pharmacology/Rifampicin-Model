@@ -1,7 +1,7 @@
 # Rifampicin-Model
 Whole-body PBPK model of rifampicin.
 
-<a title="Rifampicin" href="https://commons.wikimedia.org/wiki/File:Rifampicin.svg"><img width="512" alt="Rifampicin" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Rifampicin.svg/512px-Rifampicin.svg.png"></a>
+<a title="Rifampicin" href="https://commons.wikimedia.org/wiki/File:Rifampicin.svg"><img width="512" alt="Rifampicin" src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Rifampicin.svg"></a>
 
 
 
